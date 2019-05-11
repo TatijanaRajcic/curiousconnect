@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<!-- MAIN WRAPPER -->
+<div class="body-wrap">
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner">
+
+                    <!-- ------------------------ HEADER ------------------------ -->
+                    <div class="header">
+                        <!-- Navbar -->
+                        <nav class="navbar navbar-expand-lg navbar--bold navbar-light bg-default ">
+                            <div class="container navbar-container">
+                                <!-- Brand/Logo -->
+                                <a class="navbar-brand" >
+                                    <%= image_tag "logo.png", width: 60, height: 56 %>
+                                </a>
+                                <!-- Navbar toggler  -->
+                                <div class="d-inline-block">
+                                    <button class="navbar-toggler hamburger hamburger-js hamburger--spring" type="button" data-toggle="collapse" data-target="#navbar_main" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                                <!-- Navbar links  -->
+                                <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbar_main">
+
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown megamenu">
+                                            <a class="nav-link" href="../../index.html">
+                                                Overview
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu">
+                                            <a class="nav-link" href="../../index.html">
+                                                Product
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu">
+                                            <a class="nav-link" href="../../demos.html">
+                                                Team
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu">
+                                            <a class="nav-link" href="../../demos.html">
+                                                Partners
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End of Navbar links  -->
+                            </div>
+                            <!-- End of navbar container -->
+                        </nav>
+                        <!-- end of nav -->
+                    </div>
+                    <!-- ------------------------ END OF HEADER ------------------------ -->
+
+
+                    <!-- ------------------------ SWIPER ------------------------ -->
+                    <section class="swiper-js-container background-image-holder" data-holder-type="fullscreen" data-holder-offset=".navbar">
+                        <!-- Swiper container -->
+                        <div class="swiper-container" data-swiper-autoplay="true" data-swiper-effect="fade" data-swiper-items="1" data-swiper-space-between="0" data-swiper-sm-items="1" data-swiper-sm-space-between="0" data-swiper-xs-items="1" data-swiper-xs-space-between="0">
+                            <!-- Swiper wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slide DISCOVER -->
+                                <div class="swiper-slide" data-swiper-autoplay="2500">
+                                    <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="background-image: url(<%= asset_path 'fond.jpg' %>); background-position: bottom bottom">
+                                        <div class="container d-flex align-items-center no-padding">
+                                            <div class="col">
+                                                <div class="row row-cols-xs-spaced align-items-center py-5 text-center justify-content-center">
+                                                    <div class="col-lg-8">
+                                                        <h3 class="heading heading-xl strong-700 c-white animated" data-animation-in="zoomIn" data-animation-onetime="false" data-animation-delay="200">
+                                                            <span style="opacity: 0.4;">discover</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide EXPLORE -->
+                                <div class="swiper-slide" data-swiper-autoplay="2500">
+                                    <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="background-image: url(<%= asset_path 'fond.jpg' %>); background-position: bottom bottom">
+                                        <div class="container d-flex align-items-center no-padding">
+                                            <div class="col">
+                                                <div class="row row-cols-xs-spaced align-items-center py-5 text-center justify-content-center">
+                                                    <div class="col-lg-8">
+                                                        <h3 class="heading heading-xl strong-700 c-white animated"data-animation-in="zoomIn" data-animation-onetime="false" data-animation-delay="200">
+                                                            <span style="opacity: 0.4;">explore</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide LEARN -->
+                                <div class="swiper-slide" data-swiper-autoplay="2500">
+                                    <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="background-image: url(<%= asset_path 'fond.jpg' %>); background-position: bottom bottom">
+                                        <div class="container d-flex align-items-center no-padding">
+                                            <div class="col">
+                                                <div class="row row-cols-xs-spaced align-items-center py-5 text-center justify-content-center">
+                                                    <div class="col-lg-8">
+                                                        <h3 class="heading heading-xl strong-700 c-white animated" data-animation-in="zoomIn" data-animation-onetime="false" data-animation-delay="200">
+                                                            <span style="opacity: 0.4;">learn</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide CURIOUS CONNECT -->
+                                <div class="swiper-slide" data-swiper-autoplay="2500">
+                                    <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="background-image: url(<%= asset_path 'fond.jpg' %>); background-position: bottom bottom">
+                                        <div class="container d-flex align-items-center no-padding">
+                                            <div class="col">
+                                                <div class="row row-cols-xs-spaced align-items-center py-5 text-center justify-content-center">
+                                                    <div class="col-lg-8">
+                                                        <h3 class="heading heading-xl strong-700 c-white animated" data-animation-in="zoomIn" data-animation-onetime="false" data-animation-delay="200">
+                                                            <span style="opacity: 0.7;">Curious Connect</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- End of swiper wrapper -->
+                            
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+                        <!-- End of swiper container -->
+                    </section>
+                    <!-- ------------------------ END OF SWIPER ------------------------ -->
+
+                    <!-- ------------------------ OUR VISION ------------------------ -->
+                    <section class="slice-lg sct-color-1">
+                        <div class="container">
+
+                            <div class="section-title section-title--style-1 text-center mb-2">
+                                <h3 class="section-title-inner">
+                                    <span>Our vision</span>
+                                </h3>
+                                <span class="section-title-delimiter clearfix d-none"></span>
+                            </div>
+
+                            <span class="clearfix"></span>
+
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
+                                <p class="text-lg line-height-1_8">
+                                    Start building fast, beautiful and modern looking websites in no time using our theme.
+                                </p>
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                            <div class="row cols-xs-space cols-md-space cols-sm-space">
+                                <div class="col-lg-4">
+                                    <div class="icon-block icon-block--style-2-v1 text-center">
+                                        <%= image_tag "pbm1.png", class: "block-icon circle bg-base-3" %>
+                                        <h2 class="heading heading-4 strong-500">Great design</h2>
+                                        <p class="px-4">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur pellentesque neque.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="icon-block icon-block--style-2-v1 text-center">
+                                        <%= image_tag "pbm2.png", class: "block-icon circle bg-base-3" %>
+                                        <h2 class="heading heading-4 strong-500">Flexible code</h2>
+                                        <p class="px-4">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur pellentesque neque.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="icon-block icon-block--style-2-v1 text-center">
+                                        <%= image_tag "pbm3.png", class: "block-icon circle bg-base-3" %>
+                                        <h2 class="heading heading-4 strong-500">Support 24/7</h2>
+                                        <p class="px-4">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur pellentesque neque.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ------------------------ END OF 3 POINTS ------------------------ -->
+
+
+                    <!-- ------------------------ THE PRODUCT ------------------------ -->
+
+                    <section class="slice-lg sct-color-4">
+                        <div class="sct-inner container">
+                            
+                            <div class="section-title section-title--style-1 text-center mb-2">
+                                <h3 class="section-title-inner">
+                                    <span>Our product</span>
+                                </h3>
+                                <span class="section-title-delimiter clearfix d-none"></span>
+                            </div>
+
+                            <span class="clearfix"></span>
+
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
+                                <p class="text-lg line-height-1_8" style="color:#818a91">
+                                    Start building fast, beautiful and modern looking websites in no time using our theme.
+                                </p>
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                            <div class="row cols-xs-space cols-sm-space align-items-center">
+
+                                <div class="col-lg-4 col-md-6 col-12">
+
+                                    <div class="icon-block--style-1-v1 block-icon-right">
+                                        <%= image_tag "logo.png", class: "block-icon" %>
+                                        <div class="block-content">
+                                            <h3 class="heading heading-5 strong-600">Responsive web design</h3>
+                                            <p class="mt-3" style="color:#818a91">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <span class="space-xs-md space-sm-xl"></span>
+
+                                    <div class="icon-block--style-1-v1 block-icon-right">
+                                        <%= image_tag "logo.png", class: "block-icon" %>
+                                        <div class="block-content">
+                                            <h3 class="heading heading-5 strong-600">Loaded with features</h3>
+                                            <p class="mt-3" style="color:#818a91">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <span class="space-xs-md space-sm-xl"></span>
+
+                                    <div class="icon-block--style-1-v1 block-icon-right">
+                                        <%= image_tag "logo.png", class: "block-icon" %>
+                                        <div class="block-content">
+                                            <h3 class="heading heading-5 strong-600">Infinite colors</h3>
+                                            <p class="mt-3" style="color:#818a91">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-12 hidden-md-down">
+                                    <%= link_to image_tag("img-device-5.png", class: "img-center img-responsive") %>
+                                </div>
+
+
+                                <div class="col-lg-4 col-md-6 col-12">
+
+                                    <div class="icon-block--style-1-v1">
+                                        <%= image_tag "logo.png", class: "block-icon" %>
+                                        <div class="block-content">
+                                            <h3 class="heading heading-5 strong-600">Made with SASS</h3>
+                                            <p class="mt-3" style="color:#818a91">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <span class="space-xs-md space-sm-xl"></span>
+
+                                    <div class="icon-block--style-1-v1">
+                                        <%= image_tag "logo.png", class: "block-icon" %>
+                                        <div class="block-content">
+                                            <h3 class="heading heading-5 strong-600">Free updates</h3>
+                                            <p class="mt-3" style="color:#818a91">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <span class="space-xs-md space-sm-xl"></span>
+
+                                    <div class="icon-block--style-1-v1">
+                                        <%= image_tag "logo.png", class: "block-icon" %>
+                                        <div class="block-content">
+                                            <h3 class="heading heading-5 strong-600">Online support</h3>
+                                            <p class="mt-3" style="color:#818a91">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ------------------------ END OF THE PRODUCT ------------------------ -->
+
+
+                    <!-- ------------------------ OUR PARTNERS ------------------------ -->
+                    <section class="slice-lg sct-color-1">
+                        <div class="sct-inner container">
+
+                            <div class="section-title section-title--style-1 text-center mb-2">
+                                <h3 class="section-title-inner">
+                                    <span>Our partners</span>
+                                </h3>
+                                <span class="section-title-delimiter clearfix d-none"></span>
+                            </div>
+
+                            <span class="clearfix"></span>
+
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
+                                <p class="text-lg line-height-1_8">
+                                    Start building fast, beautiful and modern looking websites in no time using our theme.
+                                </p>
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                            <div class="swiper-js-container">
+                                <div class="swiper-container" data-swiper-items="3" data-swiper-space-between="20" data-swiper-md-items="3" data-swiper-sm-space-between="20" data-swiper-sm-items="2" data-swiper-sm-space-between="20" data-swiper-xs-items="2" data-swiper-sm-space-between="20">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="client-logo client-logo--style-3 img-responsive">
+                                                <%= image_tag "partner1.png"%>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo client-logo--style-3 img-responsive">
+                                                <%= image_tag "partner2b.png"%>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo client-logo--style-3 img-responsive">
+                                                <%= image_tag "partner3.png"%>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ------------------------ END OF OUR PARTNERS ------------------------ -->
+
+                    <!-- ------------------------ OUR TEAM ------------------------ -->
+                    <section class="slice-lg sct-color-4">
+                        <div class="container">
+                            <div class="section-title section-title--style-1 text-center mb-2">
+                                <h3 class="section-title-inner" style="color:white">
+                                    <span>Our creative team</span>
+                                </h3>
+                                <span class="section-title-delimiter clearfix d-none"></span>
+                            </div>
+
+                            <span class="clearfix"></span>
+
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
+                                <p class="text-lg line-height-1_8">
+                                    Start building fast, beautiful and modern looking websites in no time using our theme.
+                                </p>
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                                <div class="col-lg-4">
+                                    <div class="block block--style-4">
+                                        <div class="block block-image">
+                                            <div style="text-align: center">
+                                                <%= image_tag "bianca2.png", class: "block-icon circle" %>
+                                            </div>
+                                        </div>
+                                        <div class="block-body" style="text-align: center">
+                                            <h4 class="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Graphic designer</h4>
+                                            <h3 class="heading heading-5 strong-500" style="color:white">David Wally</h3>
+                                            <p class="mt-1">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                            <div class="block-footer">
+                                            <ul class="social-media social-media--style-1-v4">
+                                                <li>
+                                                    <a href="#" class="facebook" target="_blank" title="Facebook">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="instagram" target="_blank">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank">
+                                                        <i class="fa fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="block block--style-4">
+                                        <div class="block block-image">
+                                            <div style="text-align: center">
+                                                <%= image_tag "rafael.png", class: "block-icon circle" %>
+                                            </div>
+                                        </div>
+                                        <div class="block-body" style="text-align: center">
+                                            <h4 class="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Graphic designer</h4>
+                                            <h3 class="heading heading-5 strong-500" style="color:white">David Wally</h3>
+                                            <p class="mt-1">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                            <div class="block-footer">
+                                            <ul class="social-media social-media--style-1-v4">
+                                                <li>
+                                                    <a href="#" class="facebook" target="_blank" title="Facebook">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="instagram" target="_blank">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank">
+                                                        <i class="fa fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="block block--style-4">
+                                        <div class="block block-image">
+                                            <div style="text-align: center">
+                                                <%= image_tag "tatijana2.png", class: "block-icon circle"%>
+                                            </div>
+                                        </div>
+                                        <div class="block-body" style="text-align: center">
+                                            <h4 class="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Graphic designer</h4>
+                                            <h3 class="heading heading-5 strong-500" style="color:white">David Wally</h3>
+                                            <p class="mt-1">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.
+                                            </p>
+                                            <div class="block-footer">
+                                            <ul class="social-media social-media--style-1-v4">
+                                                <li>
+                                                    <a href="#" class="facebook" target="_blank" title="Facebook">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="instagram" target="_blank">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank">
+                                                        <i class="fa fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ------------------------ END OF OUR TEAM ------------------------ -->
+
+                    <!-- ------------------------ CALL TO ACTION ------------------------ -->
+                    <section class="slice sct-color-1">
+                        <div class="container">
+                            <div class="section-title section-title--style-1 text-center mb-2">
+                                <h3 class="section-title-inner text-normal" style="font-family: Raleway">
+                                    Drop us a line
+                                </h3>
+                                <span class="section-title-delimiter clearfix d-none"></span>
+                            </div>
+
+                            <span class="clearfix"></span>
+
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
+                                Start building fast, beautiful and modern looking websites in no time using our theme.
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6">
+                                    <%= form_for @user, url: {action: "create"} do |f| %>
+                                    <!-- Contact form -->
+                                    <form id="form_contact" data-action="../../php/send-email.php" class="form-default" role="form">
+                                        <div class="form-group has-feedback">
+                                            <div type="text" name="name">
+                                                <%= f.text_field :name, class: "form-control form-control-xl", placeholder:"Your name" %>
+                                            </div>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                        <div class="form-group has-feedback">
+                                            <div type="email" name="email">
+                                                <%= f.text_field :email, class: "form-control form-control-xl", placeholder:"name@example.com" %>
+                                            </div>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                        <div class="form-group has-feedback">
+                                            <div type="text" name="number">
+                                                <%= f.text_field :number, class: "form-control form-control-xl", placeholder:"Phone number" %>
+                                            </div>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                        <div class="form-group has-feedback">
+                                            <div type="text" name="type">
+                                                <%= f.text_field :user_type, class: "form-control form-control-xl", placeholder:"You are..." %>
+                                            </div>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                        <div class="form-group has-feedback">
+                                            <%= f.text_area :message, class: "form-control no-resize", rows: "5", placeholder: "Message ..." %>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                        <div class="">
+                                            <%= f.submit "Send message", class: "btn btn-block btn-styled btn-lg btn-base-2 btn-shadow strong-600 mt-4" %>
+                                        </div>
+
+                                    </form>
+                                    <% end %>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ------------------------ END OF CALL TO ACTION ------------------------ -->
+
+
+                    <!-- FOOTER -->
+                    <footer id="footer" class="footer">
+                        <div class="footer-top">
+                            <div class="container">
+                                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                                    <div class="col-lg-5">
+                                        <div class="col">
+                                            <img src="../../assets/images/logo/logo-1-c.png">
+                                            <span class="clearfix"></span>
+                                            <span class="heading heading-sm c-gray-light strong-400">One template. Infinite solutions.</span>
+                                            <p class="mt-3">
+                                                All the components included in Boomerang are built to the same level of quality as Bootstrap and highlighted with several example pages.
+                                            </p>
+
+                                            <div class="copyright mt-4">
+                                                <p>
+                                                    Copyright &copy; 2018                                <a href="https://webpixels.io" target="_blank">
+                                                        <strong>Webpixels</strong>
+                                                    </a> -
+                                                    All rights reserved
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <div class="col">
+                                           <h4 class="heading heading-xs strong-600 text-uppercase mb-1">
+                                               Support
+                                           </h4>
+
+                                           <ul class="footer-links">
+                                                <li><a href="#" title="Help center">Help center</a></li>
+                                                <li><a href="#" title="Discussions">Discussions</a></li>
+                                                <li><a href="#" title="Contact support">Contact</a></li>
+                                                <li><a href="#" title="Blog">Blog</a></li>
+                                                <li><a href="#" title="Jobs">FAQ</a></li>
+                                            </ul>
+                                         </div>
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <div class="col">
+                                            <h4 class="heading heading-xs strong-600 text-uppercase mb-1">
+                                                Company
+                                            </h4>
+
+                                            <ul class="footer-links">
+                                                 <li>
+                                                     <a href="#" title="Home">
+                                                         Home
+                                                     </a>
+                                                 </li>
+                                                 <li>
+                                                     <a href="#" title="About us">
+                                                         About us
+                                                     </a>
+                                                 </li>
+                                                 <li>
+                                                     <a href="#" title="Services">
+                                                         Services
+                                                     </a>
+                                                 </li>
+                                                 <li>
+                                                     <a href="#" title="Blog">
+                                                         Blog
+                                                     </a>
+                                                 </li>
+                                                 <li>
+                                                     <a href="#" title="Contact">
+                                                         Contact
+                                                     </a>
+                                                 </li>
+                                             </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="col">
+                                            <h4 class="heading heading-xs strong-600 text-uppercase mb-1">
+                                                Get in touch
+                                            </h4>
+
+                                            <ul class="social-media social-media--style-4-v4">
+                                                <li>
+                                                    <a href="#" class="facebook" target="_blank" data-toggle="tooltip" data-original-title="Facebook">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="instagram" target="_blank" data-toggle="tooltip" data-original-title="Instagram">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank" data-toggle="tooltip" data-original-title="Dribbble">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dribbble" target="_blank" data-toggle="tooltip" data-original-title="Github">
+                                                        <i class="fa fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                </div><!-- END: st-content-inner-->
+            </div><!-- END: st-content -->
+        </div><!-- END: st-pusher -->
+    </div><!-- END: st-container -->
+</div><!-- END: body-wrap -->
+
+</body>
+</html>
