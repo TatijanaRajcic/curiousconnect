@@ -29,3 +29,79 @@
 *= require custom-style.css
 *= require_tree .
 */
+
+.transformation:hover {
+	transform: matrix(1, -0.1, 0, 1, 0, 0);
+}
+
+.bgtransform:hover {
+	background-color: #E61D25;
+	color:white;
+}
+
+.underlined {
+  position: relative;
+  text-decoration: none;
+}
+
+.underlined:hover, .underlined:active, .underlined:focus {
+  color: #2FBEB7;
+}
+
+.underlined:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #363390;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.underlined:hover:before, .underlined:active:before, .underlined:focus:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+html { scroll-behavior: smooth; } 
+
+#essai {
+  position: relative;
+  left:25%;
+  width: 50%;  
+}
+.imageo {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#essai:hover .imageo {
+  opacity: 0.3;
+}
+
+#essai:hover .middle {
+  opacity: 1;
+}
