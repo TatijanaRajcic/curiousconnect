@@ -17,7 +17,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv'
 gem 'mailjet'
 gem 'mini_magick'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'cloudinary'
 
 group :development, :test do
